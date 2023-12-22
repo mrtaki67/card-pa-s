@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estrangeiro ou Brasileiro?</title>
+</head>
+<body>
+    <div id="card">
+        <header>
+            <h1>Qual o seu País?</h1>
+        </header>
+        <main>
+            <section>
+                <input type="text" name="txtp" id="txtp" placeholder="digite seu país">
+                <input type="button" value="Verificar" onclick="verificar()" class="verificar">
+            </section>
+            <div id="res"></div>
+        </main>
+    </div>
+   
+    <script>
+        function verificar() {
+            var pais = window.document.getElementById('txtp').value.toLowerCase();
+            var res = window.document.getElementById("res");
+            if (pais === "brasil") {
+                res.innerHTML = '<p>Voce é <strong> Brasileiro!</strong> :D'
+            }else {
+                res.innerHTML = `<p> Você é estrangeiro, e mora no pais <strong>${pais}</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
