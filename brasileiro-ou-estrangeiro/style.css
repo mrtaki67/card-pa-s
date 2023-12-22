@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500&family=Inter:wght@600&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500&family=Righteous&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Mooli', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0rem 0.5rem 0.5rem #ccc ;
+    padding: 34px;
+    transition: all 0.2s;
+}
+
+header h1 {
+    display: flex;
+    margin-bottom: 1rem;
+    color: #000000c4;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    gap: 15px;
+}
+
+section #txtp {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0rem 0.1rem 0.5rem #ccc ;
+}
+
+section .verificar {
+    padding: 10px;
+    background: #b1ee8e;
+    border: none;
+    border-radius: 8px;
+    color: #000000a8;
+    width: 50%;
+    transition: all 0.2s;
+}
+
+section .verificar:hover {
+    background: #9fd47f;
+}
+
+#res {
+    margin: 20px;
+}
+
+
+
