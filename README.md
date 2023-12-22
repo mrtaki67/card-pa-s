@@ -1,4 +1,4 @@
 # card-pais
-# verifica se você é Brasileiro ou estrangeiro! :D
+<p> verifica se você é Brasileiro ou estrangeiro! :D </p>
 
-# Projeto muito simples usando HTML, CSS e JS
+- Projeto muito simples usando HTML, CSS e JS
